@@ -5,9 +5,7 @@ with open('inputs\input1.txt') as f:
     for line in f.readlines():
         inputList.append(line.strip())
 
-#generalizable solution
-import numpy as np
-
+#solve
 def elfCals(inputList,N):
     elfCalList=[]
     tot=0
